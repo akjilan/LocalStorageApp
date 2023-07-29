@@ -161,7 +161,6 @@ const saveItemToLocalStorge = (key,value)=>{
     const cartStrigified = JSON.stringify(cart);
     localStorage.setItem('cart',cartStrigified);
 }
-
 const displayStoredProducts = () =>{
     const cart = getCartFromStorage();
     for(const item in cart){
@@ -170,7 +169,6 @@ const displayStoredProducts = () =>{
         addProductToDisplay(item,value);
     }
 }
-
 displayStoredProducts();
 
 
