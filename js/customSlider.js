@@ -15,4 +15,4 @@ setInterval(() => {
     imgID.setAttribute('src', imgUrl);
     imgIndex++;
     
-}, 1200);
+}, 1100);
